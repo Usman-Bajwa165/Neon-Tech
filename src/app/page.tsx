@@ -166,16 +166,16 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative">
-              <div className="absolute -inset-4 bg-linear-to-r from-accent/20 to-blue-500/20 rounded-2xl blur-xl opacity-50" />
-              <div className="relative rounded-2xl border border-border bg-card p-6 shadow-2xl flex items-center justify-center min-h-[400px]">
-                <div className="relative w-full aspect-square max-w-[300px]">
+            <div className="relative group">
+              <div className="absolute -inset-4 bg-linear-to-r from-accent/20 to-blue-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-80 transition-opacity" />
+              <div className="relative rounded-2xl border border-border bg-card p-2 shadow-2xl overflow-hidden flex items-center justify-center min-h-[400px] transition-transform duration-500 group-hover:scale-[1.02]">
+                <div className="relative w-full h-[360px]">
                   <Image
                     src="/logo.png"
                     alt="Neon Tech Official Logo"
                     fill
-                    sizes="(max-width: 768px) 300px, 400px"
-                    className="object-contain"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-700"
                     priority
                   />
                 </div>
