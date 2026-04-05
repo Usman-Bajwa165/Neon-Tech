@@ -168,14 +168,17 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="absolute -inset-4 bg-linear-to-r from-accent/20 to-blue-500/20 rounded-2xl blur-xl opacity-50" />
-              <div className="relative rounded-2xl border border-border bg-card p-2 shadow-2xl">
-                <Image
-                  src="/logo.png"
-                  alt="Neon Tech Code Representation"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  className="rounded-xl object-cover opacity-90"
-                />
+              <div className="relative rounded-2xl border border-border bg-card p-6 shadow-2xl flex items-center justify-center min-h-[400px]">
+                <div className="relative w-full aspect-square max-w-[300px]">
+                  <Image
+                    src="/logo.png"
+                    alt="Neon Tech Official Logo"
+                    fill
+                    sizes="(max-width: 768px) 300px, 400px"
+                    className="object-contain"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -192,10 +195,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
               <div key={index} className="relative p-6 border-l border-border hover:border-accent transition-colors group">
-                <span className="text-5xl font-black text-accent/10 absolute -top-1 px-4 left-0 group-hover:text-accent/20 transition-colors">
-                  {step.number}
-                </span>
-                <h4 className="text-lg font-bold mb-2 pt-4 text-foreground">{step.title}</h4>
+                <div className="flex items-center gap-4 mb-2">
+                  <span className="text-3xl font-black text-accent/20 group-hover:text-accent transition-colors shrink-0">
+                    {step.number}
+                  </span>
+                  <h4 className="text-lg font-bold text-foreground">{step.title}</h4>
+                </div>
                 <p className="text-foreground/70 text-sm">{step.description}</p>
               </div>
             ))}

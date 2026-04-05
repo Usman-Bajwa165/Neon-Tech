@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MessageSquare, Globe, Terminal, Mail } from "lucide-react";
+import { Globe, Mail, MessageCircle } from "lucide-react";
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="relative w-8 h-8 overflow-hidden rounded-md border border-border">
-                <Image src="/logo.png" alt="Neon Tech Logo" fill className="object-cover" />
+                <Image src="/logo.png" alt="Neon Tech Logo" fill sizes="32px" className="object-cover" />
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground">
                 Neon Tech
@@ -20,17 +20,13 @@ export function Footer() {
               Premium Software House specializing in custom Web Apps, SaaS development (CMS, CRM, ERP), and legacy application modernizations. We deliver robust, reliable, and guaranteed solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-foreground/50 hover:text-accent transition-colors">
-                <span className="sr-only">Twitter</span>
-                <MessageSquare className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-foreground/50 hover:text-accent transition-colors">
-                <span className="sr-only">GitHub</span>
-                <Terminal className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-foreground/50 hover:text-accent transition-colors">
-                <span className="sr-only">LinkedIn</span>
-                <Globe className="h-6 w-6" />
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=29.390129,71.768422" 
+                target="_blank" 
+                className="flex items-center gap-2 text-foreground/50 hover:text-accent transition-colors text-sm"
+              >
+                <Globe className="h-5 w-5" />
+                Find Us on Maps
               </a>
             </div>
           </div>
@@ -56,17 +52,21 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-start text-foreground/70">
-                <MessageSquare className="h-5 w-5 mr-3 mt-0.5 text-accent shrink-0" />
+                <MessageCircle className="h-5 w-5 mr-3 mt-0.5 text-accent shrink-0" />
                 <a href="tel:+923100771165" className="hover:text-accent transition-colors">
                   +92 310 0771165
                 </a>
               </li>
               <li className="flex items-start text-foreground/70">
                 <Globe className="h-5 w-5 mr-3 mt-0.5 text-accent shrink-0" />
-                <span>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=29.390129,71.768422" 
+                  target="_blank"
+                  className="hover:text-accent transition-colors"
+                >
                   Stars Law College, Near Sutlej Motorcycle Factory,<br />
                   13.5km Main Hasilpur Road, Bahawalpur, Pakistan
-                </span>
+                </a>
               </li>
             </ul>
           </div>
