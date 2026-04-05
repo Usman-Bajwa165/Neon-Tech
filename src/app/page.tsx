@@ -172,9 +172,9 @@ export default function Home() {
                 <Image
                   src="/logo.png"
                   alt="Neon Tech Code Representation"
-                  width={600}
-                  height={400}
-                  className="rounded-xl object-cover w-full h-[400px] opacity-90"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="rounded-xl object-cover opacity-90"
                 />
               </div>
             </div>
@@ -192,7 +192,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
               <div key={index} className="relative p-6 border-l border-border hover:border-accent transition-colors group">
-                <span className="text-5xl font-black text-accent/10 absolute -top-4 -left-2 group-hover:text-accent/20 transition-colors">
+                <span className="text-5xl font-black text-accent/10 absolute -top-1 px-4 left-0 group-hover:text-accent/20 transition-colors">
                   {step.number}
                 </span>
                 <h4 className="text-lg font-bold mb-2 pt-4 text-foreground">{step.title}</h4>

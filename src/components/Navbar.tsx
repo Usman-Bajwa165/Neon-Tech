@@ -37,7 +37,7 @@ export function Navbar() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative w-10 h-10 overflow-hidden rounded-md border border-border group-hover:border-accent transition-colors">
-                <Image src="/logo.png" alt="Neon Tech Logo" fill className="object-cover" />
+                <Image src="/logo.png" alt="Neon Tech Logo" fill sizes="40px" className="object-cover" />
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground transition-colors group-hover:text-accent">
                 Neon Tech
