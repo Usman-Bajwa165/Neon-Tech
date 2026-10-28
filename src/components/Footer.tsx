@@ -10,10 +10,10 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="relative w-8 h-8 overflow-hidden rounded-md border border-border">
-                <Image src="/logo.png" alt="Neon Tech Logo" fill sizes="32px" className="object-cover" />
+                <Image src="/logos/logo-aurora-violet.png" alt="Neon Tech Solutions Logo" fill sizes="32px" className="object-cover" />
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground">
-                Neon Tech
+                Neon Tech Solutions
               </span>
             </Link>
             <p className="text-foreground/70 mb-6 max-w-sm">
@@ -74,7 +74,7 @@ export function Footer() {
         
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center">
           <p className="text-base text-foreground/60 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Neon Tech. All rights reserved.
+            &copy; {new Date().getFullYear()} Neon Tech Solutions. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Link href="#" className="text-foreground/60 hover:text-accent text-sm transition-colors">Privacy Policy</Link>

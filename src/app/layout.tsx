@@ -8,13 +8,13 @@ import { Footer } from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Neon Tech | Premium Software Development & SaaS Solutions",
+  title: "Neon Tech Solutions | Premium Software Development & SaaS Solutions",
   description:
     "Highly professional Software House specializing in custom SaaS, web apps, app debugging, and legacy application management.",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logos/logo-aurora-violet.png",
+    shortcut: "/logos/logo-aurora-violet.png",
+    apple: "/logos/logo-aurora-violet.png",
   },
 };
 
