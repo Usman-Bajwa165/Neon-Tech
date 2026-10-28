@@ -38,8 +38,8 @@ export function Navbar() {
           {/* Logo */}
           <div className="shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-10 h-10 overflow-hidden rounded-md border border-border group-hover:border-accent transition-colors">
-                <Image src="/logos/logo-titanium-platinum.png" alt="Neon Tech Solutions Logo" fill sizes="40px" className="object-cover" />
+              <div className="relative w-10 h-10 overflow-hidden rounded-md border border-border group-hover:border-accent transition-colors bg-card/40 flex items-center justify-center p-1">
+                <Image src="/logos/icon-titanium-platinum.png" alt="Neon Tech Solutions Logo" fill sizes="40px" className="object-contain p-1" />
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground transition-colors group-hover:text-accent">
                 Neon Tech Solutions

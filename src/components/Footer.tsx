@@ -9,8 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="relative w-8 h-8 overflow-hidden rounded-md border border-border">
-                <Image src="/logos/logo-titanium-platinum.png" alt="Neon Tech Solutions Logo" fill sizes="32px" className="object-cover" />
+              <div className="relative w-8 h-8 overflow-hidden rounded-md border border-border bg-card/40 flex items-center justify-center p-0.5">
+                <Image src="/logos/icon-titanium-platinum.png" alt="Neon Tech Solutions Logo" fill sizes="32px" className="object-contain p-0.5" />
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground">
                 Neon Tech Solutions
