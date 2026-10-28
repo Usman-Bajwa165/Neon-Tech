@@ -334,7 +334,7 @@ export default function Home() {
               <div className="relative rounded-2xl border border-border bg-card p-2 shadow-2xl overflow-hidden flex items-center justify-center min-h-[400px] transition-transform duration-500 group-hover:scale-[1.02]">
                 <div className="relative w-full h-[360px]">
                   <Image
-                    src="/logos/logo-sunset-ember.png"
+                    src="/logos/logo-titanium-platinum.png"
                     alt="Neon Tech Solutions Official Logo"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"

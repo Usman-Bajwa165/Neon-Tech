@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   description:
     "Highly professional Software House specializing in custom SaaS, web apps, app debugging, and legacy application management.",
   icons: {
-    icon: "/logos/logo-aurora-violet.png",
-    shortcut: "/logos/logo-aurora-violet.png",
-    apple: "/logos/logo-aurora-violet.png",
+    icon: "/logos/logo-titanium-platinum.png",
+    shortcut: "/logos/logo-titanium-platinum.png",
+    apple: "/logos/logo-titanium-platinum.png",
   },
 };
 

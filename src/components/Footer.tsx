@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="relative w-8 h-8 overflow-hidden rounded-md border border-border">
-                <Image src="/logos/logo-aurora-violet.png" alt="Neon Tech Solutions Logo" fill sizes="32px" className="object-cover" />
+                <Image src="/logos/logo-titanium-platinum.png" alt="Neon Tech Solutions Logo" fill sizes="32px" className="object-cover" />
               </div>
               <span className="font-bold text-xl tracking-tight text-foreground">
                 Neon Tech Solutions
